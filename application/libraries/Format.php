@@ -312,7 +312,12 @@ class Format {
 	{
 		return trim($string);
 	}
-
+	
+	// Format html for output
+	private function _from_html($string)
+	{
+		return trim($string);
+	}
 }
 
 /* End of file format.php */
